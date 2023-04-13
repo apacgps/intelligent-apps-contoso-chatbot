@@ -82,7 +82,7 @@
     "openAiAccountName": "[format('{0}-openai', parameters('chatAppName'))]",
     "hostingPlanName": "[format('{0}-hostingplan', parameters('chatAppName'))]",
     "webSiteName": "[format('{0}-webapp', parameters('chatAppName'))]",
-    "webSiteRepository": "https://github.com/apacgps/intelligent-apps-with-chatgpt/tree/main/Hands-On%20Lab/src/contoso-chatbot.git",
+    "webSiteRepository": "https://github.com/apacgps/intelligent-apps-contoso-chatbot.git",
     "databaseName": "ChatDatabase",
     "containerName": "ChatContainer",
     "openAiMaxTokens": "3000"
